@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ControleEstacionamento/1.0.0": {
+        "runtime": {
+          "ControleEstacionamento.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControleEstacionamento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

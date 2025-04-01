@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87D600F3-E666-42E0-815A-4B3F62FBC6B1}|ControleEstacionamento.Utils\\ControleEstacionamento.Utils.csproj|c:\\users\\dnd_b\\onedrive\\documentos\\c sharp\\controleestacionamento\\controleestacionamento.utils\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D600F3-E666-42E0-815A-4B3F62FBC6B1}|ControleEstacionamento.Utils\\ControleEstacionamento.Utils.csproj|solutionrelative:controleestacionamento.utils\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|c:\\users\\dnd_b\\onedrive\\documentos\\c sharp\\controleestacionamento\\controleestacionamento\\views\\home\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|solutionrelative:controleestacionamento\\views\\home\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|c:\\users\\dnd_b\\onedrive\\documentos\\c sharp\\controleestacionamento\\controleestacionamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|solutionrelative:controleestacionamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|c:\\users\\dnd_b\\onedrive\\documentos\\c sharp\\controleestacionamento\\controleestacionamento\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|solutionrelative:controleestacionamento\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|c:\\users\\dnd_b\\onedrive\\documentos\\c sharp\\controleestacionamento\\controleestacionamento\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|solutionrelative:controleestacionamento\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|c:\\users\\dnd_b\\onedrive\\documentos\\c sharp\\controleestacionamento\\controleestacionamento\\models\\ticket\\ticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A58277F1-0358-4138-AE15-5BA41BBA2C03}|ControleEstacionamento\\ControleEstacionamento.csproj|solutionrelative:controleestacionamento\\models\\ticket\\ticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento.Utils\\Database\\DBConnection.cs",
+              "RelativeDocumentMoniker": "ControleEstacionamento.Utils\\Database\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento.Utils\\Database\\DBConnection.cs",
+              "RelativeToolTip": "ControleEstacionamento.Utils\\Database\\DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T18:12:43.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Adicionar.cshtml",
+              "DocumentMoniker": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Views\\Home\\Adicionar.cshtml",
+              "RelativeDocumentMoniker": "ControleEstacionamento\\Views\\Home\\Adicionar.cshtml",
+              "ToolTip": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Views\\Home\\Adicionar.cshtml",
+              "RelativeToolTip": "ControleEstacionamento\\Views\\Home\\Adicionar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T14:18:05.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ControleEstacionamento\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ControleEstacionamento\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T18:48:38.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Program.cs",
+              "RelativeDocumentMoniker": "ControleEstacionamento\\Program.cs",
+              "ToolTip": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Program.cs",
+              "RelativeToolTip": "ControleEstacionamento\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:37:31.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControleEstacionamento\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ControleEstacionamento\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T18:34:16.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketModel.cs",
+              "DocumentMoniker": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Models\\Ticket\\TicketModel.cs",
+              "RelativeDocumentMoniker": "ControleEstacionamento\\Models\\Ticket\\TicketModel.cs",
+              "ToolTip": "C:\\Users\\dnd_b\\OneDrive\\Documentos\\C Sharp\\ControleEstacionamento\\ControleEstacionamento\\Models\\Ticket\\TicketModel.cs",
+              "RelativeToolTip": "ControleEstacionamento\\Models\\Ticket\\TicketModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:32:19.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
