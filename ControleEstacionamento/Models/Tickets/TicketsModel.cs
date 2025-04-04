@@ -2,6 +2,6 @@
 {
     public class TicketsModel
     {
-        public List<TicketModel> Ticket { get; set;}
+        public List<TicketModel> Tickets { get; set;}
     }
 }

@@ -12,14 +12,14 @@ namespace ControleEstacionamento.Utils.Entidades
         protected abstract T Fill(MySqlDataReader reader);
         protected abstract void FillParameters(MySqlParameterCollection parameters);
 
-        public T Get(string placa)
+        public T Get(string condicao)
         {
             using (MySqlConnection conn = new MySqlConnection(DBConnection.CONNECTION_STRING))
             {
                 conn.Open();
-                var query = $"SELECT ID, {string.Join(", ", Fields)} FROM {TableName} WHERE ID = @ID";
+                var query = $"SELECT ID, {string.Join(", ", Fields)} FROM {TableName} WHERE {condicao}";
                 var cmd = new MySqlCommand(query, conn);
-                cmd.Parameters.Add(new MySqlParameter("ID", id));
+                cmd.Parameters.Add(new MySqlParameter("ID", ID));
 
                 var reader = cmd.ExecuteReader();
                 if (reader.Read())

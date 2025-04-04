@@ -1,23 +1,36 @@
-﻿<h1 class="float-start mb-3 text-primary">Carro Bem Guardado</h1>
+﻿@using ControleEstacionamento.Models.Tickets
+@model TicketsModel
+<h1 class="float-start mb-3 text-primary">Carro Bem Guardado</h1>
 <div class="text-center">
     <div class="g-5 float-end mt-2">
-        <button class="btn btn-outline-success">Marcar Entrada</button>
-        <button class="btn btn-outline-danger">Marcar Saída</button>
+        <a class="btn btn-outline-success" asp-controller="Ticket" asp-action="FormularioEntrada">Marcar Entrada</a>
+        <a class="btn btn-outline-danger" asp-controller="Ticket" asp-action="FormularioSaida">Marcar Saída</a>
     </div>
     <table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Placa</th>
-            <th>Horário de chegada</th>
-            <th>Horário de saída</th>
-            <th>Duração</th>
-            <th>Tempo Cobrado (hora)</th>
-            <th>Preço</th>
-            <th>Valor a pagar</th>
-        </tr>
-    </thead>
-    <tbody>
-
-    </tbody>
-</table>
+        <thead>
+            <tr>
+                <th>Placa</th>
+                <th>Horário de chegada</th>
+                <th>Horário de saída</th>
+                <th>Duração</th>
+                <th>Tempo Cobrado (hora)</th>
+                <th>Preço</th>
+                <th>Valor a pagar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Tickets)
+            {
+                <tr>
+                    <td>@item.Placa</td>
+                    <td>@item.Hora_chegada</td>
+                    <td>@item.Hora_saida</td>
+                    <td>@item.Duracao</td>
+                    <td>@item.TempoCobrado</td>
+                    <td>R$2,00</td>
+                    <td>@item.Preco.ToString("C2")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>

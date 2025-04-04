@@ -26,8 +26,8 @@ namespace ControleEstacionamento.Utils.Entidades
             aux.ID = reader.GetInt32("ID");
             aux.Placa = reader.GetString("PLACA");
             aux.Hora_chegada = reader.GetDateTime("HR_CHEGADA");
-            aux.Hora_saida = reader.GetDateTime("HR_SAIDA");
-            aux.Preco = reader.GetDecimal("PRECO");
+            aux.Hora_saida = reader.IsDBNull(reader.GetOrdinal("HR_SAIDA")) ? (DateTime?)null : reader.GetDateTime("HR_SAIDA");
+            aux.Preco = reader.IsDBNull(reader.GetOrdinal("PRECO")) ? 0.0m : reader.GetDecimal("PRECO");
 
             return aux;
         }
@@ -68,8 +68,10 @@ namespace ControleEstacionamento.Utils.Entidades
         private decimal CalcularPreco(DateTime entrada, DateTime saida)
         {
             TimeSpan duracao = saida - entrada;
-            decimal precoHoraInicial = 2.00m;
-            decimal precoHoraAdicional = 2.00m;
+            int anosPassados = entrada.Year > 2025 ? entrada.Year - 2025 : 0;
+
+            decimal precoHoraInicial = 2.00m + anosPassados;
+            decimal precoHoraAdicional = 1.00m + anosPassados;
 
             if (duracao.TotalMinutes <= 30)
             {
