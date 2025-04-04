@@ -78,7 +78,7 @@ namespace ControleEstacionamento.Utils.Entidades
                 return precoHoraInicial / 2;
             }            
 
-            decimal total = precoHoraAdicional;
+            decimal total = precoHoraInicial;
             int tempoAdicional = (int)Math.Ceiling((duracao.TotalMinutes - 60) / 60);
 
             if (duracao.TotalMinutes > 60 && (duracao.TotalMinutes - 60) % 60 <= 10)
